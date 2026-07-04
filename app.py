@@ -32,7 +32,7 @@ st.divider()
 # LOAD DATA
 # ======================================================
 
-DATA_PATH = "../Data/Processed/ecowas_growth_master.csv"
+DATA_PATH = "Data/Processed/ecowas_growth_master.csv"
 
 master = pd.read_csv(DATA_PATH)
 
