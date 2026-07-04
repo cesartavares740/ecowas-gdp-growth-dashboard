@@ -384,7 +384,7 @@ fig_table = go.Figure(data=[go.Table(columnwidth=[60, 280, 140],
         values=[
             ranking["Rank"],
             ranking["Country Name"],
-            ranking["GDP Growth (%)"].round(2)
+            ranking["GDP Growth (%)"].map(lambda x: f"{x:.2f}")
         ],
 
         fill_color="#0E1117",
